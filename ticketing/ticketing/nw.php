@@ -1,0 +1,11 @@
+					echo "<div class=' text-center'> ";					
+					echo "<div class='col-md-3 col-sm-6 hero-feature'>";
+					echo '<div class="thumbnail">';
+					echo "<img src=".$row['image']." class='img-responsive' style='width:100%; height:200px' alt='Image'>";
+					echo "<div class='caption'><h3>".$row['title']."</h3>";
+					echo "<p>".$row['description']."</p>";
+					echo '<p><a href="buy.php?buy='.$row['tID'].' " class="btn btn-primary">Buy Now!</a> <a href="moreinfo.php?info='.$row['tID'].'" class="btn btn-default">More Info</a></p>';
+					echo "</div>";
+					echo "</div>";
+					echo "</div>";
+					echo "</div>";

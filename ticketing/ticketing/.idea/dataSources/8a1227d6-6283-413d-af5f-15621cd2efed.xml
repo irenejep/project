@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ticketing@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="ticketing">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="a7182016"/>
+    <schema id="4" parent="1" name="ajaxtrial"/>
+    <schema id="5" parent="1" name="bitnami_joomla"/>
+    <schema id="6" parent="1" name="boda_boda_sacco"/>
+    <schema id="7" parent="1" name="book_db2"/>
+    <schema id="8" parent="1" name="bursary"/>
+    <schema id="9" parent="1" name="bus"/>
+    <schema id="10" parent="1" name="cart"/>
+    <schema id="11" parent="1" name="census"/>
+    <schema id="12" parent="1" name="chemist"/>
+    <schema id="13" parent="1" name="citizen"/>
+    <schema id="14" parent="1" name="cleaning"/>
+    <schema id="15" parent="1" name="contacts"/>
+    <schema id="16" parent="1" name="crime"/>
+    <schema id="17" parent="1" name="crime_report"/>
+    <schema id="18" parent="1" name="dairy"/>
+    <schema id="19" parent="1" name="dbregistration"/>
+    <schema id="20" parent="1" name="drsi"/>
+    <schema id="21" parent="1" name="dubaya"/>
+    <schema id="22" parent="1" name="eticket"/>
+    <schema id="23" parent="1" name="flowers"/>
+    <schema id="24" parent="1" name="forest"/>
+    <schema id="25" parent="1" name="forge"/>
+    <schema id="26" parent="1" name="forum"/>
+    <schema id="27" parent="1" name="horizon_db"/>
+    <schema id="28" parent="1" name="hospital"/>
+    <schema id="29" parent="1" name="hotel"/>
+    <schema id="30" parent="1" name="information_schema"/>
+    <schema id="31" parent="1" name="jerop"/>
+    <schema id="32" parent="1" name="laravel"/>
+    <schema id="33" parent="1" name="lesson"/>
+    <schema id="34" parent="1" name="lesson1"/>
+    <schema id="35" parent="1" name="matatu"/>
+    <schema id="36" parent="1" name="mfcs"/>
+    <schema id="37" parent="1" name="multiple_data"/>
+    <schema id="38" parent="1" name="mylara"/>
+    <schema id="39" parent="1" name="mysecondproject"/>
+    <schema id="40" parent="1" name="mysql"/>
+    <schema id="41" parent="1" name="mythirdproject"/>
+    <schema id="42" parent="1" name="nchms"/>
+    <schema id="43" parent="1" name="osc_db"/>
+    <schema id="44" parent="1" name="ospos"/>
+    <schema id="45" parent="1" name="ospostest"/>
+    <schema id="46" parent="1" name="park"/>
+    <schema id="47" parent="1" name="performance_schema"/>
+    <schema id="48" parent="1" name="phpmyadmin"/>
+    <schema id="49" parent="1" name="police"/>
+    <schema id="50" parent="1" name="pos"/>
+    <schema id="51" parent="1" name="poultry"/>
+    <schema id="52" parent="1" name="prison"/>
+    <schema id="53" parent="1" name="property"/>
+    <schema id="54" parent="1" name="repair"/>
+    <schema id="55" parent="1" name="rrms"/>
+    <schema id="56" parent="1" name="sacco"/>
+    <schema id="57" parent="1" name="sales"/>
+    <schema id="58" parent="1" name="schools"/>
+    <schema id="59" parent="1" name="secure"/>
+    <schema id="60" parent="1" name="sessions"/>
+    <schema id="61" parent="1" name="stock"/>
+    <schema id="62" parent="1" name="store"/>
+    <schema id="63" parent="1" name="taxi"/>
+    <schema id="64" parent="1" name="test"/>
+    <schema id="65" parent="1" name="testdatabase"/>
+    <schema id="66" parent="1" name="timber"/>
+    <schema id="67" parent="1" name="upd_store"/>
+    <schema id="68" parent="1" name="warehouse"/>
+    <schema id="69" parent="1" name="website"/>
+    <schema id="70" parent="1" name="wichita"/>
+    <table id="71" parent="2" name="accounts"/>
+    <table id="72" parent="2" name="contact"/>
+    <table id="73" parent="2" name="mpesa"/>
+    <table id="74" parent="2" name="sold_outs"/>
+    <table id="75" parent="2" name="tickets"/>
+    <column id="76" parent="71" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="77" parent="71" name="fname">
+      <Position>2</Position>
+      <DataType>varchar(22)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="71" name="lname">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="71" name="username">
+      <Position>4</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="71" name="password">
+      <Position>5</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="71" name="type">
+      <Position>6</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="82" parent="71" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="72" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="84" parent="72" name="name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="72" name="email">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="72" name="phone">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="72" name="message">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="88" parent="72" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="73" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="90" parent="73" name="paybill">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="73" name="phone">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="73" name="transno">
+      <Position>4</Position>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="73" name="amount">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="94" parent="73" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="95" parent="74" name="tID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="74" name="fname">
+      <Position>2</Position>
+      <DataType>varchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="74" name="lname">
+      <Position>3</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="74" name="email">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="74" name="phone">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="74" name="no_of_tickets">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="74" name="mpesa_transaction_no">
+      <Position>7</Position>
+      <DataType>varchar(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="74" name="image">
+      <Position>8</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="74" name="title">
+      <Position>9</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="74" name="description">
+      <Position>10</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="105" parent="74" name="mpesa_transaction_no">
+      <ColNames>mpesa_transaction_no</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="106" parent="74" name="tID">
+      <ColNames>tID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="74" name="PRIMARY">
+      <ColNames>tID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="108" parent="74" name="tID">
+      <ColNames>tID</ColNames>
+      <UnderlyingIndexName>tID</UnderlyingIndexName>
+    </key>
+    <key id="109" parent="74" name="mpesa_transaction_no">
+      <ColNames>mpesa_transaction_no</ColNames>
+      <UnderlyingIndexName>mpesa_transaction_no</UnderlyingIndexName>
+    </key>
+    <column id="110" parent="75" name="tID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="111" parent="75" name="image">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="75" name="title">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="75" name="description">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="75" name="price">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="75" name="total_no_of_tickets">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="116" parent="75" name="PRIMARY">
+      <ColNames>tID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
